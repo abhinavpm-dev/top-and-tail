@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or suggest a feature
+    url: https://github.com/abhinavpm-dev/top-and-tail/discussions
+    about: Questions, ideas and which features you use go in Discussions.
+  - name: Report a security vulnerability
+    url: https://github.com/abhinavpm-dev/top-and-tail/security/advisories/new
+    about: Privately, so it can be fixed before it's public.

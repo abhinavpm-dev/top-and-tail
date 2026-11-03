@@ -1,0 +1,46 @@
+name: Report a problem
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Issues are public, so leave out anything you'd rather keep private.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what the extension did, and what you expected instead.
+      placeholder: "On a channel with a 20 s rule, the video ended about 10 s early."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details from the popup
+      description: |
+        In the extension's popup, on the tab with the problem, click **Report a problem** at the bottom, then **Copy details**, and paste them here. They never say which video or channel it is.
+      placeholder: |
+        extension: Top & Tail 1.0.0
+        browser: …
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: video
+    attributes:
+      label: Video link (optional)
+      description: Only if you're happy to share it. It's often the quickest way to find the cause.
+      placeholder: https://www.youtube.com/watch?v=…
+    validations:
+      required: false
+  - type: dropdown
+    id: how-often
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
+    validations:
+      required: false
