@@ -1,6 +1,6 @@
 # Top & Tail privacy policy
 
-_Last updated: 3 November 2026_
+_Last updated: 7 November 2026_
 
 Top & Tail is a browser extension for YouTube. It keeps your per-channel rules in your own browser and sends nothing anywhere. This page says what it reads, what it keeps, and where.
 
@@ -20,7 +20,7 @@ It uses these in the moment to apply your rules. It doesn't record which videos 
 ## What it keeps
 
 - **Your rules.** For each channel you add, it keeps the channel's ID and name and the settings you chose: how much to skip, when the outro starts, what happens at the outro, the intro, speed and volume. It also keeps whether the extension is switched on. These live in the browser's synced extension storage.
-- **Your own volume.** While a channel's volume is applied, it keeps the volume it replaced, so it can put yours back afterwards. This stays in local extension storage on this device.
+- **Your own volume and speed.** While a channel's volume or speed is applied, it keeps the value it replaced, so it can put yours back afterwards. The volume stays in local extension storage on this device. The speed stays in that tab's session storage for YouTube's site, beside YouTube's own note of the speed you picked, which means YouTube's pages can see it too. It holds only the two speeds, and is gone when you close the tab.
 - **What it did on the current video**, such as "skipped the last 20 s", so the popup can say so. This stays in the open tab's memory and is gone when the tab moves on or closes.
 
 ## Where it goes
@@ -35,7 +35,7 @@ Your browser may sync your rules to your other computers if you've turned sync o
 
 ## Permissions
 
-- **Storage:** to keep your rules and your own volume, as above.
+- **Storage:** to keep your rules and your own volume, as above. The speed in the tab's session storage needs no permission.
 - **Access to `www.youtube.com` and `m.youtube.com`:** to read the playing video and apply your rules there. The extension doesn't run on any other site.
 
 ## Removing your data
