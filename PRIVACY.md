@@ -13,6 +13,8 @@ On `www.youtube.com` and `m.youtube.com`, and nowhere else, the extension reads 
 - where its end cards start
 - the player's speed, volume and loop setting
 
+On a channel's page, when you open the extension's popup there, it reads from the page which channel that is (its ID, name and handle), so you can add that channel.
+
 It uses these in the moment to apply your rules. It doesn't record which videos you watch.
 
 ## What it keeps
